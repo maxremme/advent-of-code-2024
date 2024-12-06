@@ -31,7 +31,7 @@ def is_safe(levels):
 
 
 
-with open('day_2/input.txt', 'r')as f:
+with open('day_2/input.txt', 'r') as f:
     file = f.readlines()
 records = [record.strip() for record in file]
 
